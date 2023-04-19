@@ -105,8 +105,6 @@ const clearShoppingList = () => {
 };
 
 const addInputValueToShoppingList = (item) => {
-
-
     let itemId = item[0];
     let itemValue = item[1];
 
@@ -121,7 +119,5 @@ const addInputValueToShoppingList = (item) => {
         let location = ref(database, `shoppingList/${itemId}`);
         remove(location);
     })
-
-
 
 };
