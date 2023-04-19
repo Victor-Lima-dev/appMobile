@@ -13,7 +13,6 @@ body
     display: flex;
     flex-direction: column;
     
-    justify-content: center;
     height: 100vh;
     width: 100vw;
     border: 1px solid red;
@@ -25,7 +24,7 @@ body
     justify-content: center;
    
     
-    margin: 1,875rem auto;
+    margin: 1.875rem auto;
 
     width: 80vw;
     height: 100%;
