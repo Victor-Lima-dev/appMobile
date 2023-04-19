@@ -30,7 +30,7 @@ import { getDatabase, ref, push, onValue, remove } from "https://www.gstatic.com
 
 
 const appSettings = {
-    dataBase : "https://mobileapp-70c94-default-rtdb.firebaseio.com/",
+    dataBase: "https://mobileapp-70c94-default-rtdb.firebaseio.com/",
     projectId: "mobileapp-70c94"
 }
 
@@ -47,12 +47,12 @@ const shoppingListEl = document.querySelector('#shopping-list');
 
 
 onValue(shoppingListInDb, (snapshot) => {
-    
+
     // snapshot é o valor atual da nossa base de dados
     // pegamos o valor do snapshot com o snapshot.val()
 
 
-    if(!snapshot.exists()){
+    if (!snapshot.exists()) {
         shoppingListEl.innerHTML = "Nenhum item na lista";
     }
 
@@ -65,7 +65,7 @@ onValue(shoppingListInDb, (snapshot) => {
 
     // limpamos a lista antes de preencher com os itens da nossa base de dados
     clearShoppingList();
-    
+
 
     // percorremos o array com o forEach
     // e passamos o item para o callback
@@ -73,7 +73,7 @@ onValue(shoppingListInDb, (snapshot) => {
 
     //criar um for para percorrer o array
 
-    
+
 
     for (let i = 0; i < shoppingList.length; i++) {
         let item = shoppingList[i];
@@ -83,7 +83,7 @@ onValue(shoppingListInDb, (snapshot) => {
     }
 
 
-    
+
 })
 
 
@@ -105,7 +105,7 @@ const clearShoppingList = () => {
 };
 
 const addInputValueToShoppingList = (item) => {
-    
+
 
     let itemId = item[0];
     let itemValue = item[1];
@@ -117,10 +117,10 @@ const addInputValueToShoppingList = (item) => {
     //adiciona o elemento li na lista ul como filho
     shoppingListEl.appendChild(liEl);
 
-   liEl.addEventListener('click', () => {
+    liEl.addEventListener('click', () => {
         let location = ref(database, `shoppingList/${itemId}`);
-       remove(location);
-   })
+        remove(location);
+    })
 
 
 
