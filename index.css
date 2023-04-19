@@ -28,7 +28,7 @@ body
     margin: 1,875rem auto;
 
     width: 80vw;
-    height: 80vh;
+    height: 100%;
 
     border: 1px solid red;
 
@@ -39,8 +39,10 @@ body
 input {
     color: #432000;
     background-color: #dce1eb;
+    
     border: 0;
-    padding: 1.5rem;
+
+    padding: 5rem;
 
     border-radius: 5rem;
 
@@ -49,7 +51,8 @@ input {
     text-align: center;
     font-family: 'Rubik', sans-serif;
     
-    width: 50%;
+    width: 20rem;
+   
 
     margin: 0 auto;
     
@@ -62,14 +65,16 @@ button{
     background-color: #ac485a;
 
     border: 0;
-    padding: 1.5em;
+    padding: 5rem;
     border-radius: 5rem;
     font-size: 1rem;
     text-align: center;
     font-family: 'Rubik', sans-serif;
 
     margin: 0 auto;
-    width: 50%;
+
+    width: 30rem;
+    
 }
 
 img
