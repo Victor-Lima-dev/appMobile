@@ -22,6 +22,7 @@ body
 .container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
    
     
     margin: 1,875rem auto;
@@ -31,22 +32,26 @@ body
 
     border: 1px solid red;
 
+    margin: 0 auto;
+
 }
 
 input {
     color: #432000;
     background-color: #dce1eb;
     border: 0;
-    padding: 0.9375rem;
+    padding: 1.5rem;
 
-    border-radius: .5rem;
+    border-radius: 5rem;
 
-    font-size: 1,25rem;
+    font-size: 1rem;
 
     text-align: center;
     font-family: 'Rubik', sans-serif;
     
+    width: 50%;
 
+    margin: 0 auto;
     
 
 
@@ -57,14 +62,14 @@ button{
     background-color: #ac485a;
 
     border: 0;
-    padding: 0.9375rem;
-    border-radius: .5rem;
-    font-size: 1.25rem;
+    padding: 1.5em;
+    border-radius: 5rem;
+    font-size: 1rem;
     text-align: center;
     font-family: 'Rubik', sans-serif;
 
-    
-
+    margin: 0 auto;
+    width: 50%;
 }
 
 img
