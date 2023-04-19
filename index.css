@@ -21,10 +21,10 @@ body
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    
    
     
-    margin: 1.875rem auto;
+    margin: 3rem auto;
 
     width: 80vw;
     height: 100%;
