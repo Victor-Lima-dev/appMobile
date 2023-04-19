@@ -21,8 +21,8 @@ body
 .container {
     display: flex;
     flex-direction: column;
-    width: 80rem;
-    margin: 30px auto;
+    width: 20rem;
+    margin: 1,875rem auto;
     height: 100%;
 }
 
@@ -30,12 +30,12 @@ input {
     color: #432000;
     background-color: #dce1eb;
     border: 0;
-    padding: 15px;
-    border-radius: 8px;
-    font-size: 20px;
+    padding: 0.9375rem;
+    border-radius: .5rem;
+    font-size: 1,25rem;
     text-align: center;
     font-family: 'Rubik', sans-serif;
-    margin: 10px 0;
+    margin: 0.625rem 0;
 
 
 }
@@ -45,9 +45,9 @@ button{
     background-color: #ac485a;
 
     border: 0;
-    padding: 15px;
-    border-radius: 8px;
-    font-size: 20px;
+    padding: 0.9375rem;
+    border-radius: .5rem;
+    font-size: 1.25rem;
     text-align: center;
     font-family: 'Rubik', sans-serif;
 
@@ -63,7 +63,7 @@ ul
 {
     list-style: none;
     padding: 0;
-    margin: 10px;
+    margin: 0,625rem;
 
     display: flex;
     flex-wrap: wrap;
@@ -84,7 +84,7 @@ ul
 li
 {
 
-    padding: 10px;
+    padding: 0.9375rem;
     border-radius: 8px;
     background-color: #dce1eb;
     font-size: 20px;
