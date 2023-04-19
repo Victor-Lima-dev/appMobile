@@ -51,7 +51,7 @@ input {
     text-align: center;
     font-family: 'Rubik', sans-serif;
     
-    width: 20rem;
+    width: 40rem;
     height: auto;
    
 
@@ -68,13 +68,13 @@ button{
     border: 0;
     padding: 1.5rem;
     border-radius: 5rem;
-    font-size: 5rem;
+    font-size: 3rem;
     text-align: center;
     font-family: 'Rubik', sans-serif;
 
     margin: 0 auto;
 
-    width: 30rem;
+    width: 40rem;
     
 }
 
