@@ -32,29 +32,30 @@ body
 
     border: 1px solid red;
 
-    margin: 0 auto;
+   
 
 }
 
 input {
     color: #432000;
     background-color: #dce1eb;
-    
+
     border: 0;
 
-    padding: 5rem;
+    padding: 1.5rem;
 
-    border-radius: 5rem;
+    border-radius: 3rem;
 
-    font-size: 1rem;
+    font-size: 5rem;
 
     text-align: center;
     font-family: 'Rubik', sans-serif;
     
     width: 20rem;
+    height: auto;
    
 
-    margin: 0 auto;
+    margin: 1rem auto;
     
 
 
@@ -65,9 +66,9 @@ button{
     background-color: #ac485a;
 
     border: 0;
-    padding: 5rem;
+    padding: 1.5rem;
     border-radius: 5rem;
-    font-size: 1rem;
+    font-size: 5rem;
     text-align: center;
     font-family: 'Rubik', sans-serif;
 
@@ -79,8 +80,8 @@ button{
 
 img
 {
-    width: 20rem;
-    height: 20rem;
+    width: 40rem;
+    height: 40rem;
     margin: 0 auto;
 }
 
